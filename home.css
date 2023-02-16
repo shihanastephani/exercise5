@@ -12,14 +12,15 @@
 }
 .home-container1 {
   width: 500px;
-  height: 200px;
+  height: 300px;
   display: flex;
-  padding: 0px;
-  position: relative;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
   margin-top: var(--dl-space-space-threeunits);
   align-items: flex-start;
   margin-left: var(--dl-space-space-threeunits);
   padding-top: var(--dl-space-space-twounits);
+  border-color: #45d3d3;
+  border-width: 1px;
   margin-right: var(--dl-space-space-threeunits);
   padding-left: var(--dl-space-space-twounits);
   border-radius: var(--dl-radius-radius-radius4);
@@ -27,46 +28,56 @@
   padding-right: var(--dl-space-space-twounits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-twounits);
-  justify-content: center;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  border-top-width: 3px;
 }
 .home-container2 {
-  left: 0px;
-  width: 500px;
-  bottom: 24px;
-  height: 152px;
+  width: 87px;
+  height: 87px;
   display: flex;
-  position: absolute;
-  box-shadow: 5px 5px 10px 0px #d4d4d4;
-  align-items: flex-end;
+  margin-top: var(--dl-space-space-twounits);
+  margin-left: var(--dl-space-space-twounits);
   border-radius: var(--dl-radius-radius-radius4);
   background-size: cover;
-  justify-content: flex-start;
-  background-image: url("public/playground_assets/elephants2-200h.jpeg");
+  background-image: url("public/playground_assets/claireguiot-200h.jpeg");
   background-position: center;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+  border-top-left-radius: var(--dl-radius-radius-round);
+  border-top-right-radius: var(--dl-radius-radius-round);
+  border-bottom-left-radius: var(--dl-radius-radius-round);
+  border-bottom-right-radius: var(--dl-radius-radius-round);
 }
 .home-text {
-  top: 40px;
-  left: 20px;
-  color: rgb(245, 230, 230);
-  height: 25px;
-  position: absolute;
-  font-style: normal;
+  font-size: 24px;
+  margin-top: var(--dl-space-space-twounits);
+  font-family: Inter;
   font-weight: 700;
+  line-height: 1.15;
+  margin-left: var(--dl-space-space-twounits);
+  text-transform: none;
+  text-decoration: none;
 }
-.home-heading {
-  top: 80px;
-  left: 20px;
-  color: #ececef;
-  height: 25px;
-  position: absolute;
-  font-style: normal;
-  font-weight: 500;
+.home-text1 {
+  color: rgba(0, 0, 0, 0.47);
+  font-size: 16px;
+  margin-top: var(--dl-space-space-unit);
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  margin-left: var(--dl-space-space-twounits);
+  text-transform: none;
+  text-decoration: none;
+}
+.home-text2 {
+  color: rgba(0, 0, 0, 0.47);
+  z-index: 100;
+  font-size: 16px;
+  margin-top: var(--dl-space-space-halfunit);
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  margin-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius4);
+  text-transform: none;
+  text-decoration: none;
 }
